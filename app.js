@@ -36,7 +36,7 @@ function verificarChute() {
         if (chute > numeroSecreto) {
             exibirTextoNaTela('p', 'O Número Oculto é menor.');
         } else {
-            exibirTextoNaTela('p', 'O número Oculto é maior.');
+            exibirTextoNaTela('p', 'O Número Oculto é maior.');
         }
         tentativas++;
         limparCampo();
